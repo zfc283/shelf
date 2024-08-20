@@ -10,6 +10,47 @@ KnowledgeShelf is a full-stack application designed to enhance access to curated
 
 &nbsp;
 
+## Screenshots
+Before login, users can browse on different topics and articles
+
+&nbsp;
+
+<img src="https://zfc283-wiki.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(402).png" alt="Alt text" >
+
+&nbsp;
+
+&nbsp;
+
+After login, admin users can manage (add/edit/delete) categories, topics and articles
+
+&nbsp;
+
+<img src="https://zfc283-wiki.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(403).png" alt="Alt text" >
+
+&nbsp;
+
+&nbsp;
+
+Note that the docs admin panel is entered from the topic admin panel
+
+&nbsp;
+
+<img src="https://zfc283-wiki.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(406).png" alt="Alt text" >
+
+&nbsp;
+
+&nbsp;
+
+Docs admin panel
+
+&nbsp;
+
+<img src="https://zfc283-wiki.s3.ca-central-1.amazonaws.com/github-readme-images/Screenshot+(408).png" alt="Alt text" >
+
+&nbsp;
+
+&nbsp;
+
 ## Dependencies
 * Java SE 21
 * Redis 7
