@@ -1,3 +1,15 @@
+## Description
+KnowledgeShelf is a full-stack application designed to enhance access to curated knowledge resources. The frontend is built with Vue 3, leveraging the Ant Design Vue component library for a modern-look and user-friendly interface. On the server side, the application runs on Spring Boot 3, ensuring a robust backend architecture. 
+
+&nbsp;
+
+- Project Demo: https://knowledgeshelf.site
+- Test account:
+  - username: admin
+  - password: test123
+
+&nbsp;
+
 ## Dependencies
 * Java SE 21
 * Redis 7
