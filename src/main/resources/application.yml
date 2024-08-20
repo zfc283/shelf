@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: knowledgeshelf
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/DATABASE_NAME?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: MYSQL_USERNAME
+    password: PASSWORD
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-request-size: 8MB #最大请求文件的大小
+      max-file-size: 8MB #设置单个文件最大长度
+      file-size-threshold: 8MB #当文件达到多少时进行磁盘写入
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml      # 匹配 resources/mapper 文件夹下的所有子文件夹的 XML 文件
+logging:
+  level:
+    com.project.shelf.mapper: debug       # com.project.shelf.mapper 包下产生的日志级别为 DEBUG
