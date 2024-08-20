@@ -6,6 +6,7 @@
 * IntelliJ IDEA 2023.2.4
 * Additional dependencies are listed in `pom.xml` and `package.json`
 
+&nbsp;
 
 ## Setup
 To get started, follow the following steps:
